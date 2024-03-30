@@ -1,0 +1,57 @@
+/* Designing the empty library container */
+.empty__library {
+  background-color: var(--clr-dark);
+  width: 300px;
+  height: 200px;
+  color: var(--clr-light);
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--size-2xl);
+  border-radius: 10px;
+  box-shadow: 6px 13px 17px -12px rgba( 140,140,140 , 1 ) ;
+  margin-top: var(--size-5xl);
+}
+
+.empty__library p:nth-child(1) {
+  font-size: var(--size-xl);
+  font-weight: bold;
+}
+
+/* designing the button container */
+.btn__container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn__container .add__btn {
+  font-weight: bold;
+  font-size: var(--size-lg);
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .empty__library {
+    background-color: var(--clr-dark);
+    width: 380px;
+    height: 200px;
+    gap: var(--size-2xl);
+    margin-top: var(--size-5xl);
+  }
+} 
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

@@ -1,0 +1,13 @@
+.footer__container {
+  margin-top: var(--size-5xl);
+}
+
+.footer__container img {
+  width: 25px;
+}
+
+.author__info {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}

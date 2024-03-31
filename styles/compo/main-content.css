@@ -14,6 +14,14 @@
   margin-top: var(--size-5xl);
 }
 
+.main__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--size-4xl);
+  height: 450px;
+}
+
 .empty__library p:nth-child(1) {
   font-size: var(--size-xl);
   font-weight: bold;
@@ -38,6 +46,7 @@
     height: 200px;
     gap: var(--size-2xl);
     margin-top: var(--size-5xl);
+    padding: 1rem;
   }
 } 
 
@@ -45,7 +54,20 @@
 /* @media (min-width: 640px) {} */
 
 /* md */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+  .empty__library {
+    background-color: var(--clr-dark);
+    width: 400px;
+    height: 220px;
+    gap: var(--size-3xl);
+    margin-top: var(--size-6xl);
+    padding: 1.5rem;
+  }
+
+  .empty__library p:nth-child(1) {
+    font-size: var(--size-2xl);
+  }
+}
 
 /* lg */
 /* @media (min-width: 1024px) {} */

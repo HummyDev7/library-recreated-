@@ -1,0 +1,4 @@
+const modalWindow = (function() {
+
+  
+})();

@@ -4,3 +4,4 @@ import "./styles/utility.css";
 import "./styles/compo/main-content.css";
 import "./styles/compo/footer.css";
 import "./styles/compo/header.css";
+import "./src/modal-window.js";

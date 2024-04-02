@@ -43,6 +43,11 @@
   filter: blur(1.1px);
 }
 
+.modal__window {
+  position: absolute;
+  bottom: 20px;
+}
+
 /* xs */
 @media (min-width: 475px) {
   .empty__library {

@@ -38,16 +38,6 @@
   font-size: var(--size-lg);
 }
 
-.bg__blur {
-  background-color: rgba(34, 40, 49, 0.61);
-  filter: blur(1.1px);
-}
-
-.modal__window {
-  position: absolute;
-  bottom: 20px;
-}
-
 /* xs */
 @media (min-width: 475px) {
   .empty__library {

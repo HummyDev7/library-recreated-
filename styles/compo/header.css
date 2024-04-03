@@ -1,3 +1,7 @@
+.header__container {
+  padding-top: var(--size-xl);
+}
+
 
 /* xs */
 /* @media (min-width: 475px) {} */
@@ -6,11 +10,7 @@
 /* @media (min-width: 640px) {} */
 
 /* md */
-@media (min-width: 768px) {
-  .header__container {
-      margin-top: var(--size-3xl);
-  }
-}
+@media (min-width: 768px) {}
 
 /* lg */
 /* @media (min-width: 1024px) {} */

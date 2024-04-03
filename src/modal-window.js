@@ -3,6 +3,7 @@ const modalWindow = (function () {
   let addButton = document.querySelector(".add__btn");
   let modalContainer = document.querySelector(".modal__window");
   let mainContainer = document.querySelector(".main__container");
+  let headerContainer = document.querySelector(".header__container");
 
   //listners
   addButton.addEventListener("click", showModal);
@@ -10,7 +11,7 @@ const modalWindow = (function () {
 
   function showModal() {
     modalContainer.style.display = "flex";
-    blurEffect();
+    headerContainer.style.backgroundColor = "rgba(34, 40, 49, 0.6)";
   }
 
   //Hide the window modal when clicked outside the modal window
@@ -21,9 +22,5 @@ const modalWindow = (function () {
         mainContainer.classList.remove("blur");
       }
     });
-  }
-
-  function blurEffect() {
-    mainContainer.setAttribute("class", "blur");
   }
 })();

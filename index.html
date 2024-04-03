@@ -19,7 +19,19 @@
           <p>New Book</p>
         </div>
         <div class="inputs__content">
-          
+          <form class="addBookForm">
+            <input type="text" id="book__title" name="book__title" placeholder="Title" data-input maxlength="32" required>
+            <input type="text" id="book__author" name="book__author" placeholder="Author" data-input maxlength="32" required>
+            <input type="text" id="book__pages" name="book__pages" placeholder="Pages" data-input maxlength="32" required>
+            <div class="status__container">
+              <label for="read__status">Have you read it?</label>
+              <label class="checkbox style-c">
+                <input type="checkbox" checked="checked"/>
+                <div class="checkbox__checkmark"></div>
+              </label>
+            </div>
+            <button type="submit" class="submit__btn">Add to library</button>
+          </form>
         </div>
         <div class="lower__content"></div>
       </div>

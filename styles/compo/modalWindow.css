@@ -7,6 +7,7 @@
   align-items: center;
   color: var(--clr-light);
   z-index: 2;
+  background-color: rgba(34, 40, 49, 0.6);
 }
 
 .modal__window .window__content {

@@ -7,12 +7,20 @@ const AddBook = ( function() {
   let bookAuthor = document.querySelector('#book__author');
   let bookPages = document.querySelector('#book__pages');
   let bookFormContainer = document.querySelector('.addBookForm');
+  let emptyContainer = document.querySelector('.empty__library');
+  let notEmptyContainer = document.querySelector('.notEmpty__library');
 
   //Binding Events
   bookFormContainer.addEventListener('submit', render);
 
   function render() {
     getBookInformation();
+  }
+
+  function empLib() {
+    if (notEmptyContainer.hasChildNodes()) {
+      emptyContainer.style.display = "none";
+    } 
   }
   
   function Book(title, author, pages) {
@@ -28,5 +36,10 @@ const AddBook = ( function() {
    bookInfo.push(book.title, book.author, book.pages);
   }
 
-
+  return {
+    emplibrary: empLib()
+  }
 })();
+
+AddBook.emplibrary();
+

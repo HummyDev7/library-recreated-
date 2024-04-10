@@ -5,7 +5,7 @@ const modalWindow = (function () {
   let mainContainer = document.querySelector(".main__container");
   let darkBackground = document.querySelector('.dark__effect');
 
-  //listners
+  //Bind Events
   addButton.addEventListener("click", showModal);
   document.addEventListener("click", hideModal);
 

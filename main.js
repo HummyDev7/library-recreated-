@@ -6,3 +6,4 @@ import "./styles/compo/footer.css";
 import "./styles/compo/header.css";
 import "./styles/compo/modalWindow.css";
 import "./src/modalWindow.js";
+import "./src/addBook.js";
